@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "version": "0.2.3",
+  "source_commit": "eec429d009481e193295678b9aa244d44c5d52a2",
+  "payload_sha256": "a0fd6dcdff89033304e098ecbe718ab08fabc60e65e897df529103a3461eb152",
+  "packages": [
+    {
+      "filename": "xuanling-rs-xuanling-mcp-0.2.3.tgz",
+      "integrity": "sha512-12aKPN07ce3encRzbGsOkhS/HjaaRj5UxWHf6w3QUzUrM4lsNxTrlQH0KLVPUd2mDG3H0CBGdKy0z1SIJjgvmg==",
+      "name": "@xuanling-rs/xuanling-mcp",
+      "shasum": "6d626673763cd27b575fb6afc02ee88b2d46c3a3",
+      "version": "0.2.3"
+    },
+    {
+      "filename": "xuanling-rs-xuanling-mcp-darwin-arm64-0.2.3-darwin-arm64.tgz",
+      "integrity": "sha512-d1JpTtgETOlJ5QUMImqhAg9fen3Xhc3Z/NSX6D28juRRlHkU+fVmy9i+8RKc3A7Jf1hApQsv74a4zn7xaMmQkQ==",
+      "name": "@xuanling-rs/xuanling-mcp-darwin-arm64",
+      "shasum": "e476da6630b777fcc86ba8ba606fbe4495df555f",
+      "version": "0.2.3-darwin-arm64"
+    },
+    {
+      "filename": "xuanling-rs-xuanling-mcp-linux-x64-gnu-0.2.3-linux-x64-gnu.tgz",
+      "integrity": "sha512-S0/4F9ZEk1l28xWcHNV0fo7LZeKYji/SvEGKJxJw3xMGiV3DtKTHS1HenaZKiaUeZgJ2DDUNw0LfLyeIu6GkCg==",
+      "name": "@xuanling-rs/xuanling-mcp-linux-x64-gnu",
+      "shasum": "406d7211966e620e7c420e2ea0b27a944719a0d5",
+      "version": "0.2.3-linux-x64-gnu"
+    },
+    {
+      "filename": "xuanling-rs-xuanling-mcp-win32-x64-msvc-0.2.3-win32-x64-msvc.tgz",
+      "integrity": "sha512-gbtzeIwBchWLF6h5Pai6FrBFL38DDJDBqxeKoSw7PPFaqZUTvARLX/PJRqeWxgtUQYrZ5OGbqKyBK0V+1/OYWw==",
+      "name": "@xuanling-rs/xuanling-mcp-win32-x64-msvc",
+      "shasum": "6485874723d2fff13498f1b652afa5c4513cf242",
+      "version": "0.2.3-win32-x64-msvc"
+    }
+  ],
+  "targets": {
+    "darwin-arm64": {
+      "alias": "xuanling-mcp-darwin-arm64",
+      "binary": "bin/xuanling-mcp",
+      "rust_target": "aarch64-apple-darwin",
+      "sha256": "551c22fd49e22b0a71ef1d61af041821f15af801a623454e7a70355f9ac9a2c3",
+      "release_trust": {
+        "npmProvenance": {
+          "status": "required-at-publish"
+        },
+        "publisherSigning": {
+          "status": "not-provided"
+        }
+      }
+    },
+    "linux-x64-gnu": {
+      "alias": "xuanling-mcp-linux-x64-gnu",
+      "binary": "bin/xuanling-mcp",
+      "rust_target": "x86_64-unknown-linux-gnu",
+      "sha256": "f457733e080a68888f4e1b782f2c9b7f776410494604bb22568a3ed136b8f672",
+      "release_trust": {
+        "npmProvenance": {
+          "status": "required-at-publish"
+        },
+        "publisherSigning": {
+          "status": "not-provided"
+        }
+      }
+    },
+    "win32-x64-msvc": {
+      "alias": "xuanling-mcp-win32-x64-msvc",
+      "binary": "bin/xuanling-mcp.exe",
+      "rust_target": "x86_64-pc-windows-msvc",
+      "sha256": "906144c036162a85b538baac0f7538ac364f50304184719ed1ee3d7983682c0a",
+      "release_trust": {
+        "npmProvenance": {
+          "status": "required-at-publish"
+        },
+        "publisherSigning": {
+          "status": "not-provided"
+        }
+      }
+    }
+  }
+}

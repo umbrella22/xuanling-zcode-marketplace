@@ -1,0 +1,31 @@
+{
+  "name": "xuanling-zcode-marketplace",
+  "description": "Official XuanLing MCP plugin marketplace for immutable cross-platform releases.",
+  "owner": {
+    "name": "umbrella22 and XuanLing contributors",
+    "url": "https://github.com/umbrella22/xuanling"
+  },
+  "plugins": [
+    {
+      "name": "xuanling-mcp",
+      "version": "0.2.3",
+      "description": "Cross-platform stdio MCP server with typed filesystem, process, project, artifact, session, and Memory tools.",
+      "author": {
+        "name": "umbrella22 and XuanLing contributors",
+        "url": "https://github.com/umbrella22/xuanling"
+      },
+      "homepage": "https://github.com/umbrella22/xuanling",
+      "source": {
+        "source": "github",
+        "repo": "umbrella22/xuanling-zcode-marketplace",
+        "path": "plugins/xuanling-mcp",
+        "ref": "xuanling-mcp-v0.2.3"
+      },
+      "category": "Developer Tools",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NONE"
+      }
+    }
+  ]
+}
