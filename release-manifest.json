@@ -1,36 +1,36 @@
 {
   "schema_version": 2,
-  "version": "0.2.9",
-  "source_commit": "2e95812f4b9bcb2e77f3297a9d59333013dfbcee",
-  "payload_sha256": "933b8026776ad7153ebe5a989f9319ec832bab49ac4b0a981f18fe96344071df",
+  "version": "0.2.10",
+  "source_commit": "8f87bec7959a708109c3b10dee3539e0946c7282",
+  "payload_sha256": "d2aa7979a4786742677b915a0bd882c8bd87b459eaf4160b64a0159cc9f3e37d",
   "packages": [
     {
-      "filename": "xuanling-rs-xuanling-mcp-0.2.9.tgz",
-      "integrity": "sha512-lxj24KyQ0V5sDVxutDikQcXNGm/fWg3GFl22MFbz9b4kSd2r/O4ITTT/KDAFOb/rjcCrcA+IzOkOAxsrE/UuhQ==",
+      "filename": "xuanling-rs-xuanling-mcp-0.2.10.tgz",
+      "integrity": "sha512-lUlWYownnrD9qg89omAk5SQAKRQK7dE40Mt792/SIKlDSfu9JLIGhuL2Y+R3zEnxfSQkZYoI8xTG9RbRLNGJVA==",
       "name": "@xuanling-rs/xuanling-mcp",
-      "shasum": "7218cd1e7c021725db7dee4196daa67b11358b76",
-      "version": "0.2.9"
+      "shasum": "8d1985e839bf7652bc2fd920af307b0b81db1112",
+      "version": "0.2.10"
     },
     {
-      "filename": "xuanling-rs-xuanling-mcp-darwin-arm64-0.2.9-darwin-arm64.tgz",
-      "integrity": "sha512-w0uz0Hi73wNaS+3lJRzZU6nZoyhYNcDq7TJdZpELdesHXVRJaGvLh1hgoXpAbgYnol0N2kZr2gAo8x1eU2QsRQ==",
+      "filename": "xuanling-rs-xuanling-mcp-darwin-arm64-0.2.10-darwin-arm64.tgz",
+      "integrity": "sha512-Oaer4yk8R6v57Q6b0OQ0Iv/zPwp3jydAj7iH3RwoypaA5EvARGfyEL/hL4V+bupfw6ZNrWLnWrrl/FEIBZkWow==",
       "name": "@xuanling-rs/xuanling-mcp-darwin-arm64",
-      "shasum": "04d94962fab059fc1b2e3d583032c42fbc5e35e3",
-      "version": "0.2.9-darwin-arm64"
+      "shasum": "0ce6cb86a5fd39895d93007aab403d441aa7c5c9",
+      "version": "0.2.10-darwin-arm64"
     },
     {
-      "filename": "xuanling-rs-xuanling-mcp-linux-x64-gnu-0.2.9-linux-x64-gnu.tgz",
-      "integrity": "sha512-BUB9l5tJBhQ2nwijg7657Y6rcUTXvcLEzb5+mO2Jvoh0Bn/5rpanmQffrt0zRLYH0IkYeO7zG0bCSIQKIbgpXg==",
+      "filename": "xuanling-rs-xuanling-mcp-linux-x64-gnu-0.2.10-linux-x64-gnu.tgz",
+      "integrity": "sha512-bd0ZGizcoqDsb7PNgYuZ0TKxAlEIy4LZKMov/HVg2n9OpABk5tsIZ5V3+8MvRuooYbvW1A2aQxFD6rpcwTSWBw==",
       "name": "@xuanling-rs/xuanling-mcp-linux-x64-gnu",
-      "shasum": "02aa84a0151e890d25f6474e5623b9a3d72c31f5",
-      "version": "0.2.9-linux-x64-gnu"
+      "shasum": "560d9a51c278de5c30d4708a6771bf9e58aa10d8",
+      "version": "0.2.10-linux-x64-gnu"
     },
     {
-      "filename": "xuanling-rs-xuanling-mcp-win32-x64-msvc-0.2.9-win32-x64-msvc.tgz",
-      "integrity": "sha512-YVqGXS3y5KogiN/uz2UX8X6H77tLKMeEzBm4Lsbhbt3vQS+AS22Cf59d/YzXGa7gE4ykwqIdwV5IkroVWxX0ZQ==",
+      "filename": "xuanling-rs-xuanling-mcp-win32-x64-msvc-0.2.10-win32-x64-msvc.tgz",
+      "integrity": "sha512-yhpLa6FoxBrqt+mvuFQiB7Fly1bIW2iy1zHWOclo9xKz8aeJ1k0J+Q0kqDErlywSMvejlJNgJzo+RUv38FgLcQ==",
       "name": "@xuanling-rs/xuanling-mcp-win32-x64-msvc",
-      "shasum": "3992dff83784519b4ea24f6a5dbb24fc34ae3b37",
-      "version": "0.2.9-win32-x64-msvc"
+      "shasum": "055ddaf53a64eeb0b8cfad917e79a637ced3f69d",
+      "version": "0.2.10-win32-x64-msvc"
     }
   ],
   "targets": {
@@ -38,7 +38,7 @@
       "alias": "xuanling-mcp-darwin-arm64",
       "binary": "bin/xuanling-mcp",
       "rust_target": "aarch64-apple-darwin",
-      "sha256": "497f204a0974ffc2e2a23e37eecb7b335db98c583d527bbc0248d9de9f8e7f2a",
+      "sha256": "6828880ba98fd53d754ee9c5c76e9f264ed5982dd282d21ac94eeee491943fe0",
       "release_trust": {
         "npmProvenance": {
           "status": "required-at-publish"
@@ -52,7 +52,7 @@
       "alias": "xuanling-mcp-linux-x64-gnu",
       "binary": "bin/xuanling-mcp",
       "rust_target": "x86_64-unknown-linux-gnu",
-      "sha256": "50201b12e74b02b8afaa22a8170a0035b4fee0979fd33caa06f017793b57771a",
+      "sha256": "dda5cc97f911dad67300032e6cc46bfa4b677834177900f1e1327c4ab91ca01e",
       "release_trust": {
         "npmProvenance": {
           "status": "required-at-publish"
@@ -66,7 +66,7 @@
       "alias": "xuanling-mcp-win32-x64-msvc",
       "binary": "bin/xuanling-mcp.exe",
       "rust_target": "x86_64-pc-windows-msvc",
-      "sha256": "577fa90c19bbcf9b2cbebf3f6cb8d753ba70a8b1bf3573c7a398d913a14b5228",
+      "sha256": "01002868eccfe625bce5181bebb4ac24ec7432f5f7c7f3811984d7fb0554c3ea",
       "release_trust": {
         "npmProvenance": {
           "status": "required-at-publish"
